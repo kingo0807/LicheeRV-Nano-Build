@@ -51,6 +51,7 @@ jobs:
       - name: Checkout Repo
         uses: actions/checkout@v4
         with:
+          repository: 'sipeed/LicheeRV-Nano-Build'
           path: cvi_mmf_sdk
           ref: NanoKVM
 
